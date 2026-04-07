@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__stitch__list_projects",
+      "mcp__stitch__get_screen",
+      "WebFetch(domain:contribution.usercontent.google.com)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(node -e \"const m = require\\('lucide-react'\\); const keys = Object.keys\\(m\\).filter\\(k => k.toLowerCase\\(\\).includes\\('link'\\) || k.toLowerCase\\(\\).includes\\('git'\\)\\); console.log\\(keys\\);\")",
+      "Bash(npm ls:*)"
+    ]
+  }
+}
