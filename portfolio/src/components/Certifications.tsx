@@ -28,7 +28,7 @@ export default function Certifications() {
         </p>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {certifications.map((cert, i) => {
           const Icon = iconMap[cert.icon];
           return (
@@ -43,7 +43,7 @@ export default function Certifications() {
                 ease: [0.16, 1, 0.3, 1],
               }}
               whileHover={{ y: -4 }}
-              className="group bg-surface-highest p-6 rounded-lg relative overflow-hidden hover:shadow-[0_0_24px_rgba(76,214,251,0.05)] transition-shadow w-full md:w-[calc(33.333%-1rem)]"
+              className="group bg-surface-highest p-6 rounded-lg relative overflow-hidden hover:shadow-[0_0_24px_rgba(76,214,251,0.05)] transition-shadow"
             >
               <div className="w-12 h-12 rounded-md bg-linear-to-br from-primary/20 to-primary-container/20 flex items-center justify-center mb-4">
                 {Icon && <Icon className="text-primary text-2xl" />}

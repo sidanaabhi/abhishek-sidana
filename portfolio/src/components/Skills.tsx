@@ -61,7 +61,7 @@ const cardVariant = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 py-24 max-w-6xl mx-auto">
+    <section id="skills" className="px-6 py-24 max-w-6xl mx-auto min-h-screen">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
